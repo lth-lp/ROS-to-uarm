@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+  <name>uarm</name>
+  <version>0.0.0</version>
+  <description>package for communication between ROS and uarm</description>
+
+  <maintainer email="lth-lp@ipa.fraunhofer.de">lth-lp</maintainer>
+
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>math</build_depend>
+  <build_depend>sys</build_depend>
+  <build_depend>datetime</build_depend>
+  <build_depend>threading</build_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>time</build_depend>
+  <build_depend>StringIO</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>math</run_depend>
+  <run_depend>sys</run_depend>
+  <run_depend>datetime</run_depend>
+  <run_depend>threading</run_depend>
+  <run_depend>serial</run_depend>
+  <run_depend>time</run_depend>
+  <run_depend>StringIO</run_depend>
+
+  <export>
+  </export>
+</package>
