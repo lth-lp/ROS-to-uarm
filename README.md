@@ -1,2 +1,2 @@
 # ROS-to-uarm
-Project to read data from uarm to ROS
+Project to publish data (Joinstate) for ROS usage.
