@@ -2,5 +2,7 @@
 
 Test the robot description:
 
-    roslaunch uarm_description view_model.launch
+    roslaunch uarm_description uarm_description2_gui.launch
+    rosnode kill /joint_state_publisher
+    roslaunch uarm_description rviz.launch
 
